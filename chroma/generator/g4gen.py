@@ -1,15 +1,7 @@
-from chroma.generator.mute import *
-
 import numpy as np
 from chroma.event import Photons, Vertex, Steps
 from chroma.tools import argsort_direction
 
-#g4mute()
-from Geant4 import *
-#g4unmute()
-import g4py.ezgeom
-import g4py.NISTmaterials
-import g4py.ParticleGun
 from chroma.generator import _g4chroma
 import chroma.geometry as geometry
 
